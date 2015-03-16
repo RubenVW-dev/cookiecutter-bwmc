@@ -1,7 +1,7 @@
-cookiecutter-django-bootstrap
-=============================
+cookiecutter-bwmc
+=================
 
-A cookiecutter_ template for Django.
+A cookiecutter_ template for website/webshop.
 
 Description
 -----------
