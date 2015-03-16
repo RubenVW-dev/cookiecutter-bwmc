@@ -6,7 +6,7 @@ A cookiecutter_ template for website/webshop.
 Description
 -----------
 
-Work-in-progress template for a complete django-based website with these intentions:
+Work-in-progress template for a website/webshop with these intentions:
 
     - as lightweight as possible
     - uses Bower_ as front-end package manager
