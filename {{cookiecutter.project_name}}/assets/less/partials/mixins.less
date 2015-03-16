@@ -1,0 +1,54 @@
+// First import Bootstrap's mixins:
+
+@import "@{bootstrap-prefix-path}mixins.less"; // Load the bootstrap mixins, we need those...
+
+// Define your projects specific mixins here:
+
+/*
+.border-radius(@radius){
+  -webkit-border-radius: @radius;
+  -moz-border-radius:    @radius;
+  border-radius:         @radius;
+}
+*/
+
+/*
+.transform(@transform) {
+  -webkit-transform: @transform;
+  transform: @transform;
+}
+*/
+
+/*
+.clip-path(@clip){
+  -webkit-clip-path: @clip;
+  clip-path: @clip;
+}
+*/
+
+/*
+.font-face(@name, @filename, @path, @weight:normal, @style:normal) {
+  @font-face {
+    font-family: @name;
+    src: url('@{path}@{filename}.eot');
+    src: local('☺'), url('@{path}@{filename}.woff') format('woff'), url('@{path}@{filename}.ttf') format('truetype'), url('@{path}@{filename}.svg') format('svg');
+    font-weight: @weight;
+    font-style: @style;
+  }
+}
+*/
+
+/*
+.border-image(@path, @slice:10, @width:10, @outset:round){
+  -webkit-border-image:url(@path) @slice @width @outset; // Safari 3.1-5
+  -o-border-image:url(@path) @slice @width @outset; // Opera 11-12.1
+  border-image:url(@path) @slice @width @outset;
+}
+*/
+
+/*
+.svg-background(@name, @path){
+  background: url('@{path}@{name}.png');
+  background-image: url('@{path}@{name}.svg'), none;
+}
+*/

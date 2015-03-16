@@ -1,0 +1,27 @@
+{
+    "name": "{{cookiecutter.project_name}}",
+
+    "version": "{{cookiecutter.project_version}}",
+
+    "authors": [
+    "{{cookiecutter.author_name}} <{{cookiecutter.author_email}}>"
+    ],
+
+    "private": true,
+
+    "dependencies": {
+        "jquery": "1"
+        ,"bootstrap": "3"
+        ,"modernizr": "2"
+        ,"underscore": "1"
+        ,"respond": "1"
+    },
+
+    "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+    ]
+}

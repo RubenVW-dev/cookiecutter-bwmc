@@ -1,0 +1,11 @@
+/vendor
+.env
+/node_modules
+/bower_components
+/assets
+composer.lock
+.DS_Store
+Thumbs.db
+.idea
+.ftppass
+sftp-config.json

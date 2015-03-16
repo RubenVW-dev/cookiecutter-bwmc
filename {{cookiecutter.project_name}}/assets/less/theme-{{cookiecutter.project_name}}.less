@@ -1,0 +1,26 @@
+/* ==== This is the single less file that gets compiled.
+   Author: Ruben Van Wassenhove
+   ========================================================================== 
+
+    - It pulls in some theme dependant variables - a theme should only customize variables
+    - It then pulls in that standard bootstrap.less file that has been altered like this:
+        * Variables don't get imported because they have been already
+        * Imports a custom mixins.less that in itself imports bootstrap's original mixins
+
+    
+    To make a new theme:
+        - copy this file and name it "theme-<name-of-theme>.less"
+        - copy the partials/variables-theme-default.less to partials/variables-theme-<name-of-theme>.less
+          and change the theme-<name-of-theme>.less file accordingly.
+          
+*/
+
+@bootstrap-prefix-path: "../../bower_components/bootstrap/less/";
+
+@import "partials/variables-theme-{{cookiecutter.project_name}}";
+@import "partials/mixins";
+@import "partials/bootstrap-selection";
+@import "partials/styles-extra";
+@import "partials/media-queries";
+
+@import "partials/font-faces";

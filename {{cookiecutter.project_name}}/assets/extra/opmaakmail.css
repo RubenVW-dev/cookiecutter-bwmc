@@ -1,0 +1,50 @@
+.tekst
+{
+	font-family:tahoma,arial;
+	font-size:12px;
+	line-height:20px;
+	color:#6e6e6e;
+}
+.td_titel
+{
+	border-top:1px solid #eaeaea;
+	font-family:tahoma,arial;
+	font-size:15px;
+	line-height:20px;
+	color:#6e6e6e;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-top:10px;
+	text-align:center;
+}
+.td_footer
+{
+	border-top:1px solid #eaeaea;
+	font-family:tahoma,arial;
+	font-size:11px;
+	color:#8a8a8a;
+	text-transform:uppercase;
+	padding-top:10px;
+	text-align:center;
+}
+.td_footer a:link,
+.td_footer a:visited
+{
+	font-family:tahoma,arial;
+	font-size:11px;
+	color:#8a8a8a;
+	text-transform:uppercase;	
+	text-decoration:none;
+}
+.td_footer a:hover
+{
+	font-family:tahoma,arial;
+	font-size:11px;
+	color:#7e7e7e;
+	text-transform:uppercase;	
+	text-decoration:none;
+}
+.td_header
+{
+	padding-bottom:10px;
+}

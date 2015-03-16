@@ -1,0 +1,6 @@
+{
+    "key": {
+        "username": "{{cookiecutter.ftp_username}}",
+        "password": "{{cookiecutter.ftp_password}}"
+    }
+}
