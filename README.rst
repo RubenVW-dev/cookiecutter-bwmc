@@ -33,7 +33,7 @@ Now run it against this repo, after creating a virtualenv::
     $ cd <your-workspace>
     $ cookiecutter  https://github.com/rubinoske/cookiecutter-bwmc.git
 
-You'll be prompted for some questions, answer them, then it will create a Django project for you.
+You'll be prompted for some questions, answer them, then it will create a project for you.
 
 
 Done!
