@@ -1,10 +1,10 @@
 {
     "project_name": "BWMC",
     "project_description": "A short description of the project.",
-    "project_url": "http://www.example.com",
+    "project_url": "http://www.blackandwhitecompany.be",
     "project_version": "0.1.0",
     "author_name": "Ruben Van Wassenhove",
-    "author_email": "rubenvanwassenhove@gmail.com",
+    "author_email": "ruben@bwmc.be",
     "ftp_host": "*host*",
     "ftp_username": "*username*",
     "ftp_password": "*password*",
