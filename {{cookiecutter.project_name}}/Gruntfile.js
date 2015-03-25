@@ -1,6 +1,6 @@
 //add additional javascript vendor paths here
 var jsVendors = [
-    'bower_components/jquery/jquery.min.js'
+    'bower_components/jquery/dist/jquery.min.js'
     ,'bower_components/bootstrap/dist/js/bootstrap.min.js'
     ,'bower_components/modernizr/modernizr.js'
     ,'bower_components/underscore/underscore-min.js'
